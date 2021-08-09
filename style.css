@@ -1,0 +1,111 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+ /* Body e Background */
+body {
+    background-image: url(../assets/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+ /* Hero -> trasparenza*/
+.hero {
+    background-color: rgba(0, 0, 0, 0.568);
+    width: 80%;
+    margin: auto;
+    border-radius: 40px;
+}
+
+.subhero {
+    padding-top: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 50px;
+}
+
+ /* Contenuti */
+.title {
+    margin: auto;
+    width: 60%;
+    height: 200px;
+}
+
+.img {
+    display: block;
+    width: 265px;
+    height: 120px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text-title {
+    color: chartreuse;
+    text-align: center;
+    font-weight: bold;
+}
+
+ /* Form 3 Buttons */
+
+.green-form {
+    width: 100%;
+    background-color: chartreuse;
+    height: 50px;
+    position: relative;
+}
+
+.button-container {
+    height: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 0;
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+/* Rows  */
+.content {
+    width: 100%;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+.part-one {
+    display: inline-block;
+}
+
+.part-two {
+    display: inline-block;
+    color: white;
+}
+
+.white {
+    color: white;
+}
+
+/* Battery-Life */
+
+.orange-power {
+    width: 40%;
+    height: 40px;
+    background-color: orange;
+    border-radius: 10px;
+}
+
+.green-power {
+    width: 60%;
+    height: 40px;
+    background-color: green;
+    border-radius: 10px;
+}
+
+.red-power {
+    width: 30%;
+    height: 40px;
+    background-color: red;
+    border-radius: 10px;
+}
